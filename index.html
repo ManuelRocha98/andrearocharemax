@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Andrea Rocha - Consultora REMAX</title>
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="src/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Andrea Rocha
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        </div>
+    </nav> -->
+
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <img src="src/logo.png" class="d-inline-block align-top logo">
+        <!-- <a class="navbar-brand">
+            Andrea Rocha
+        </a> -->
+
+        <div class="collapse navbar-collapse navbar-toggleable-sm" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MARKETING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IMÓVEIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTOS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div class="background"></div> -->
+    <div class="headerr">
+        <h2 id="catch">
+            ANDREA ROCHA
+            <!-- <br />são para se explorar. -->
+        </h2>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+<style>
+    @media only screen and (max-width: 600px) {
+        #miniDesc {
+            margin-top: 100px;
+        }
+    }
+
+    @media only screen and (max-width: 962px) {
+
+        #miniDesc {
+            margin-top: 120px !important;
+        }
+    }
+
+    #mainImg {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: 300%;
+        object-fit: cover;
+    }
+
+    #catch {
+        text-align: left;
+        position: absolute;
+        margin-left: 20px;
+        font-size: calc(24px + 2vw);
+        top: 50%;
+    }
+
+
+    #miniDesc {
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 160px;
+        text-align: left;
+        color: rgb(216, 152, 68);
+        font-family: "Catamaran", sans-serif;
+        font-weight: 200;
+        font-size: calc(16px + 0.5vw);
+    }
+
+    #miniDescCol {
+        top: 0%;
+        text-align: left;
+        position: absolute;
+    }
+
+    .background {
+        position: absolute;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+
+    }
+
+    .headerr {
+        background: url(src/index1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: calc( 100vh - 56px );
+    }
+
+    nav {
+        /* margin: 0 auto; */
+        /* margin-top: 30px;
+      top: 0px;
+      left: 12%;
+      width: 75%; */
+        position: fixed;
+        background-color: #ffffff;
+        /* box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.5); */
+        /* padding: 10px 0px 10px 0px; */
+        /* transform: translate3d(0, 0, 0);
+        transition: 0.2s all ease-out; */
+        z-index: 999;
+    }
+
+    nav ul li a {
+        /* margin: 0 auto; */
+        padding: 4px 20px 4px 20px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        color: #0054a4;
+        display: inline-block;
+    }
+
+    /* .navbar-toggler {
+        margin-right: 40px;
+    } */
+
+    /* .navbar-brand {
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 100px;
+        color: #0054a4;
+    } */
+
+    .navbar-brand:hover {
+        color: #00213f;
+    }
+
+    /* .navbar.navbar--hidden {
+        color: none;
+        opacity: 0;
+        box-shadow: none;
+        transform: translate3d(0, -200%, 0);
+    } */
+
+    .navbar-expand-lg .navbar-nav {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-right: 55px;
+    }
+
+    .nav-link {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .nav-item {
+        margin-right: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: "Catamaran", sans-serif;
+        font-weight: 200;
+    }
+
+    a:hover {
+        color: #e11b22;
+        transition: 0.2s linear;
+    }
+
+    span {
+        color: rgb(255, 192, 109);
+        font-weight: 500;
+    }
+
+    span:hover {
+        color: rgb(182, 11, 125);
+        transition: 0.2s linear;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .logo {
+        height: 40px;
+        margin-left: 70px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+
+    /* #reg {
+      color: rgb(255, 192, 109);
+    }
+    
+    #reg:hover {
+      color: rgb(182, 11, 125);
+    }
+    
+    #logg {
+      color: rgb(255, 192, 109);
+    }
+    
+    #logg:hover {
+      color: rgb(182, 11, 125);
+    } */
+
+    /* .dropdown-menu {
+      margin: 0 auto;
+      text-align: center;
+      margin-right: 15%;
+      margin-left: 15%;
+      background-color: white;
+      border-radius: 0%;
+      visibility: visible;
+    } */
+
+    /* .dropdown-item {
+      color: #221d23;
+    }
+    
+    .dropdown-item:hover {
+      border: none;
+      background-color: #221d23;
+    }
+    
+    #dropdown {
+      background-color: Transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      padding-right: 30px;
+      color: white;
+    } */
+</style>
+
+</html>
