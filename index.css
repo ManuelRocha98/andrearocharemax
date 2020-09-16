@@ -11,38 +11,42 @@
     }
 }
 
-.house1{
+.house{
   margin-top:2%;
   margin-left:2%;
 }
-#housephoto1{
+
+#housephoto{
   width:95%
 }
 .houseRow{
   width:100%;
-
-
 }
+
 #doublehouseImg{
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 4%;
 }
+
 .info{
 margin-top:7%;
 }
+
 p{
   max-width: 90%;
 }
+
 h2{
-    color: #0054a4 ;
+    color: #0054a4;
 }
+
 #imgmid{
     width: 100%;
     height:100%;
-
 }
+
 .buttonSeeMore {
   font-size: 20px;
     width: 120px;
@@ -52,6 +56,7 @@ h2{
     border-radius: 20px;
     margin-left:60%;
 }
+
 .buttonNewHouse {
     font-size: 20px;
     width: 500px;
@@ -65,10 +70,7 @@ h2{
     font-family:'Montserrat', sans-serif;
     top: 72%;
     color: white;
-
 }
-
-
 
 #mainImg {
     margin: 0 auto;
@@ -79,7 +81,6 @@ h2{
     object-fit: cover;
 }
 
-
 #catch {
     text-align: center;
     position: absolute;
@@ -89,7 +90,6 @@ h2{
     top: 38%;
     color: white;
 }
-
 
 #miniDesc {
     margin: 0 auto;
@@ -113,8 +113,8 @@ h2{
     z-index: -1;
     top: 0%;
     left: 0%;
-
 }
+
 .row{
   width:100%;
 }
@@ -124,26 +124,16 @@ h2{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: calc( 100vh - 56px ); x
+    height: calc( 100vh - 56px );
 }
 
 nav {
-    /* margin: 0 auto; */
-    /* margin-top: 30px;
-  top: 0px;
-  left: 12%;
-  width: 75%; */
     position: fixed;
     background-color: #ffffff;
-    /* box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.5); */
-    /* padding: 10px 0px 10px 0px; */
-    /* transform: translate3d(0, 0, 0);
-    transition: 0.2s all ease-out; */
     z-index: 999;
 }
 
 nav ul li a {
-    /* margin: 0 auto; */
     padding: 4px 20px 4px 20px;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -151,28 +141,9 @@ nav ul li a {
     display: inline-block;
 }
 
-/* .navbar-toggler {
-    margin-right: 40px;
-} */
-
-/* .navbar-brand {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 100px;
-    color: #0054a4;
-} */
-
 .navbar-brand:hover {
     color: #00213f;
 }
-
-/* .navbar.navbar--hidden {
-    color: none;
-    opacity: 0;
-    box-shadow: none;
-    transform: translate3d(0, -200%, 0);
-} */
 
 .navbar-expand-lg .navbar-nav {
     padding-right: 1.5rem;
@@ -221,51 +192,3 @@ ul {
     height: 40px;
     margin-left: 70px;
 }
-
-
-
-/* #reg {
-  color: rgb(255, 192, 109);
-}
-
-#reg:hover {
-  color: rgb(182, 11, 125);
-}
-
-#logg {
-  color: rgb(255, 192, 109);
-}
-
-#logg:hover {
-  color: rgb(182, 11, 125);
-} */
-
-/* .dropdown-menu {
-  margin: 0 auto;
-  text-align: center;
-  margin-right: 15%;
-  margin-left: 15%;
-  background-color: white;
-  border-radius: 0%;
-  visibility: visible;
-} */
-
-/* .dropdown-item {
-  color: #221d23;
-}
-
-.dropdown-item:hover {
-  border: none;
-  background-color: #221d23;
-}
-
-#dropdown {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  padding-right: 30px;
-  color: white;
-} */
