@@ -10,7 +10,14 @@
         margin-top: 120px !important;
     }
 }
+ .navbar-brand  {
+    font-family:'Montserrat', sans-serif;
+    
+}
 
+.info{
+    color: #0054a4
+}
 .house{
   margin-top:2%;
   margin-left:2%;
@@ -42,6 +49,10 @@ h2{
     color: #0054a4;
 }
 
+h6{
+    color:white; font-size: 15px
+}
+
 #imgmid{
     width: 100%;
     height:100%;
@@ -68,8 +79,13 @@ h2{
     position: absolute;
     margin-left: 9.5%;
     font-family:'Montserrat', sans-serif;
-    top: 72%;
+    top: 80%;
     color: white;
+}
+
+.buttonNewHouse:hover{
+    background-color: white;
+    color: #ca5a5a;
 }
 
 #mainImg {
@@ -84,11 +100,12 @@ h2{
 #catch {
     text-align: center;
     position: absolute;
-    margin-left: 20px;
-    font-size: calc(90px + 2vw);
-    font-family:'Montserrat', sans-serif;
-    top: 38%;
+    margin-left: -2px;
+    font-size: calc(90px + 3vw);
+    font-family: 'Exo 2', sans-serif;
+    top: 35%;
     color: white;
+    animation: floatText 2s alternate ease-in-out
 }
 
 #miniDesc {
@@ -125,6 +142,7 @@ h2{
     background-position: center;
     width: 100%;
     height: calc( 100vh - 56px );
+    
 }
 
 nav {
@@ -189,6 +207,63 @@ ul {
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
     margin-left: 70px;
 }
+
+.container-email-phone{
+  margin-left: 50px;
+  
+}
+
+
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  #ca5a5a; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ad7e7e; 
+  }
+
+
+
+/* 
+  animation title */
+  @keyframes floatText{
+    from {
+      left: -50%;
+    }
+  
+    to {
+      /* left: auto; */
+      left: 0.5%;
+    }
+  }
+
+
+#socialNetworks{
+ width: 20px;
+ length: 10px;
+}
+
+
+
+footer{
+    background-color: #ca5a5a;
+    color: white;
+}
+
