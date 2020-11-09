@@ -59,13 +59,19 @@ h6{
 }
 
 .buttonSeeMore {
-  font-size: 20px;
+  font-size: 15px;
     width: 120px;
-    height: 40px;
+    height: 30px;
     border: 1px solid black;
     background-color: transparent;
     border-radius: 20px;
     margin-left:60%;
+}
+
+.buttonSeeMore:hover{
+    border: 1px solid #ca5a5a; 
+    background-color: #ca5a5a;
+    color: white;
 }
 
 .buttonNewHouse {
@@ -101,7 +107,7 @@ h6{
     text-align: center;
     position: absolute;
     margin-left: -2px;
-    font-size: calc(90px + 3vw);
+    font-size: calc(55px + 3vw);
     font-family: 'Exo 2', sans-serif;
     top: 35%;
     color: white;
@@ -216,6 +222,26 @@ ul {
   
 }
 
+.footerLinks{
+   text-align:left;
+
+}
+
+.footerLink:hover {
+    color: white;
+}
+
+
+#socialNetworks{
+    width: 20px;
+    length: 10px;
+   }
+   
+   .socialNetworksDiv{
+       text-align:left;
+       margin-left: 400px;
+   }
+
 
 
 /* scrollbar */
@@ -255,15 +281,12 @@ ul {
   }
 
 
-#socialNetworks{
- width: 20px;
- length: 10px;
-}
 
 
 
 footer{
     background-color: #ca5a5a;
     color: white;
+
 }
 
